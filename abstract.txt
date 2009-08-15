@@ -1,0 +1,26 @@
+Source Control for People Who Don't Like Source Control
+-------------------------------------------------------
+
+Git has changed my development process more than any other tool in
+recent memory.  However, git has the reputation of being difficult to
+learn and hard to use.  In this talk, we will be approaching the whole
+source code control issue from first principles and build a system
+that suits our needs.
+
+
+Outline
+-------
+
+* Tarballs
+* Problem: too much wasted space for small changes
+* Solution: Shared content tarballs
+* Problem: Hard to find duplicates
+* Solution: Switch to hash codes
+* Problem: Need to track commits
+* Solution: commits become content with metadata and a tree
+* Problem: Sharing with my buddy
+* Solution: remote repos
+* Problem: Branching
+* Solution: Multiple heads
+* Problem: Tagging version
+* Solution: tags
