@@ -1,26 +1,12 @@
 Source Control for People Who Don't Like Source Control
 -------------------------------------------------------
 
-Git has changed my development process more than any other tool in
-recent memory.  However, git has the reputation of being difficult to
-learn and hard to use.  In this talk, we will be approaching the whole
-source code control issue from first principles and build a system
-that suits our needs.
+Few tools have changed the way I work as much as the git source control system.  Its distributed nature and lightweight branching and merging have made it possible for me to massage my code base in ways I couldn't have even imagined before using git.
 
+However, git has a reputation for being hard to learn.  Because of its rather different approach to source control issues, many of the techniques we have learned in other source control systems do not translate cleanly when using git.
 
-Outline
--------
+In this talk, we avoid the whole "fear of git" issue by not talking about git at all.  Instead we introduce the "Custom Source Control" (CSC) system and build it up from first principles.  In the end, we will ahve a completely functional, distributed source control system.  And because each step in our journey of building CSC is simple and straight forward, we end up with a completely understandable system.
 
-* Tarballs
-* Problem: too much wasted space for small changes
-* Solution: Shared content tarballs
-* Problem: Hard to find duplicates
-* Solution: Switch to hash codes
-* Problem: Need to track commits
-* Solution: commits become content with metadata and a tree
-* Problem: Sharing with my buddy
-* Solution: remote repos
-* Problem: Branching
-* Solution: Multiple heads
-* Problem: Tagging version
-* Solution: tags
+So, this talk is not about git.  But attendees will end up with a deeper understanding of the principles behind git.
+
+Did I mention this talk is not about git?  No, really!  It's not. <wink/>
