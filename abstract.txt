@@ -1,5 +1,5 @@
-Source Control for People Who Don't Like Source Control
--------------------------------------------------------
+Source Control Made Easy
+------------------------
 
 Few tools have changed the way I work as much as the git source control system.  Its distributed nature and lightweight branching and merging have made it possible for me to massage my code base in ways I couldn't have even imagined before using git.
 
